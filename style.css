@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,650;1,650&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", serif;
+    font-style: normal;
+}
+
+header{
+    background-color: #2fc2ef;
+    text-align: center;
+    padding: 2rem;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+}
+
+main{
+    padding: 1rem;
+}
+
+form{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.calendario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.horas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 12px;
+}
+
+input[type="date"]{
+    border: 3px solid #2fc2ef;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="time"]{
+    border: 3px solid #2fc2ef;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+label{
+    margin: 5px;
+}
+
+#botaoContar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+button{
+    background-color:#2fc2ef;
+    border: 2px solid #2fc2ef;
+    padding: 8px;
+    width: 100px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
