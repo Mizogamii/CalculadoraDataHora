@@ -73,5 +73,25 @@ button{
     border-radius: 15px;
     color: white;
     cursor: pointer;
+   
 }
 
+body{
+    background-color: rgb(223, 235, 245);
+}
+
+.resultados{
+    background-color: rgb(116, 203, 230);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+    visibility: hidden;
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: background-color 0.5s ease;
+    width: 250px;
+    justify-content: center;
+    margin: 20px auto;
+    margin-top: 2px;
+}
