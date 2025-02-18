@@ -27,6 +27,8 @@ document.querySelector("button").addEventListener("click", function(){
 
         let horasTotais = Math.trunc(miliTotais / (1000 * 60 * 60));
         let minutosTotais = Math.trunc(miliTotais / (1000 * 60));
+        let segundosTotais = Math.trunc(miliTotais / (1000));
+        
     
         console.log(`Dias: ${diasTotais}, Horas: ${horas}, Minutos: ${minutos}`);
 
@@ -35,6 +37,8 @@ document.querySelector("button").addEventListener("click", function(){
         document.getElementById("result2").textContent = (`Horas totais: ${horasTotais}`);
         
         document.getElementById("result3").textContent = (`Minutos totais: ${minutosTotais}`);
+
+        document.getElementById("result5").textContent = (`Segundos totais: ${segundosTotais}`);
 
         document.querySelector(".resultados").style.visibility = "visible";
 
